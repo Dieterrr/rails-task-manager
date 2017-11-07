@@ -1,0 +1,11 @@
+
+<h1><%=@task.name%></h1>
+<ul>
+  <li><strong>Name:</strong> <%=@task.name%></li>
+  <li><strong>Details: </strong> <%=@task.details%></li>
+  <li><strong>Date of creation: </strong> <%=@task.created_at%></li>
+  <%= link_to "Go Back Home", tasks_path %>
+</ul>
+
+
+
